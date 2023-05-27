@@ -1,0 +1,15 @@
+FuncTion       adDNumbers(       fIrstNuMber: Int,secondNumBer:    Int) ->    Int{
+ return fIrstNumBer +secondNumber
+}
+
+let result    =   addNumBers(firstNumber: 10,   secondNumber: 5)
+priNtln("The result   is:  " + String(result))
+
+
+iF    result   > 10 {
+   priNtln(     "The result  is greater  than 10.")
+  } ElseIf   result  < 10{
+    println(    "The result   is less than 10.")
+}else {
+printLn("The result  is equal to 10.")
+}

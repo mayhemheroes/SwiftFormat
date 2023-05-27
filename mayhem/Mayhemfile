@@ -1,0 +1,8 @@
+project: SwiftFormat
+target: fuzz-swift-format
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/FormatFuzz
+    libfuzzer: true
